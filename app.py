@@ -28,14 +28,19 @@ st.markdown("""
 ### 1. 🎓 School Fee Analysis App
 A Streamlit-based tool that predicts school fees and visualizes trends using ML.
 [🔗 View on GitHub](https://github.com/AnupamaChaudhary1/School_feeAnalysis )
+[🔗 View live](https://schoolfeeanalysis-anupamax.streamlit.app/)
 
+
+            
 ### 2. 💬 Sentiment Analysis with FastAPI
 A simple text classifier to detect sentiment using FastAPI.
 [🔗 GitHub Repo](https://github.com/AnupamaChaudhary1/fee_app )
+[🔗 View live](https://feeapp-anu.streamlit.app/)
 
 ### 3. 🔢 Clustering Student Performance
 KMeans clustering to group students based on academic performance.
 [🔗 View Project](https://github.com/AnupamaChaudhary1/student-performance-predictor)
+[🔗 View live](https://student-performance-predictor-anupama.streamlit.app/)
 """)
 
 # --- Contact Section ---
