@@ -6,6 +6,23 @@ st.set_page_config(page_title="Anupama | Portfolio", page_icon="🌸", layout="c
 st.title("👩‍💻 Anupama Chaudhary")
 st.subheader("Data Science | Python Developer | IT Enthusiast")
 
+st.markdown("""
+Welcome to my portfolio! I'm passionate about transforming data into actionable insights using machine learning and Python.
+""")
+
+# --- About Section ---
+st.header("📘 About Me")
+st.markdown("""
+I’m an aspiring data scientist and software developer from Nepal with hands-on experience in building ML-powered apps and Python tools.
+
+**Skills**:
+- Python, Pandas, Scikit-learn, Streamlit
+- Data Analysis, ML Algorithms
+- HTML/CSS, Git/GitHub
+""")
+
+# --- Projects Section ---
+
 st.header("📁 My Projects")
 
 st.markdown("""
