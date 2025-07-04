@@ -1,5 +1,29 @@
 import streamlit as st
 
+# 1. Dark mode toggle at top
+dark_mode = st.checkbox("🌙 Dark Mode")
+
+if dark_mode:
+    st.markdown(
+        """
+        <style>
+        .main { background-color: #0E1117; color: #D9D9D9; }
+        a { color: #58a6ff; }
+        .css-1d391kg { background-color: #0E1117; }
+        </style>
+        """, unsafe_allow_html=True
+    )
+else:
+    st.markdown(
+        """
+        <style>
+        .main { background-color: white; color: black; }
+        a { color: #0078d7; }
+        .css-1d391kg { background-color: white; }
+        </style>
+        """, unsafe_allow_html=True
+    )
+
 st.set_page_config(page_title="Anupama | Portfolio", page_icon="🌸", layout="centered")
 
 # --- Header Section ---
