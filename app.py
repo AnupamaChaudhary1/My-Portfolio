@@ -28,6 +28,8 @@ st.set_page_config(page_title="Anupama | Portfolio", page_icon="🌸", layout="c
 
 # --- Header Section ---
 st.title("👩‍💻 Anupama Chaudhary")
+st.write("Dark mode toggle test")
+
 st.subheader("Data Science | Python Developer | IT Enthusiast")
 
 st.markdown("""
